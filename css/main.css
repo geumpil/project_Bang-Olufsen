@@ -548,7 +548,7 @@ ul.etc-detail > li:nth-child(2) {
 }
 
 .detail-image-area {
-    max-width: 560px;
+    max-width: 600px;
     width: 100%;
     flex-shrink: 0;
 }
