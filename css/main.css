@@ -1034,6 +1034,10 @@ footer {
         padding-top: 270px;
     }
 
+    .home-textarea {
+        margin-bottom: 270px;
+    }
+
     .home-textarea h2 {
         font-size: 46px;   
     }
@@ -1046,7 +1050,7 @@ footer {
     }
 
     .home-theater-detail {
-        padding: 160px 32px 0;
+        margin-bottom: 270px;
     }
 
     .home-theater-wrap {
