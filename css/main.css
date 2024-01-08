@@ -524,7 +524,9 @@ ul.etc-detail > li:nth-child(2) {
 
 .home-textarea h2 {
     font-size: 60px;   
-    font-weight: 300; 
+    font-weight: 300;
+    line-height: 1.5; 
+    word-break: keep-all;
 }
 
 .home-textarea p {
@@ -717,6 +719,7 @@ ul.etc-detail > li:nth-child(2) {
     max-width: 700px;
     width: 100%;
     line-height: 1.7;
+    word-break: keep-all;
 }
 
 .anc-video-area {
@@ -1036,6 +1039,7 @@ footer {
 
     .home-textarea {
         margin-bottom: 270px;
+        padding: 100px 32px 0;
     }
 
     .home-textarea h2 {
@@ -1228,6 +1232,10 @@ footer {
     
     }
 
+    .video-title-text > h1 {
+        font-size: 16px;
+    }
+
     .video-title-text .video-main-title {
         font-size: 28px;
     }
@@ -1305,8 +1313,8 @@ footer {
     }
 
     .etc-detail {
-        padding-top: 160px;
-        gap: 160px;
+        padding-top: 120px;
+        gap: 120px;
     }
 
     .etc-detail-list > div {
@@ -1342,7 +1350,7 @@ footer {
 
     .home-textarea {
         padding-top: 100px;
-        margin-bottom: 160px;
+        margin-bottom: 200px;
     }
     
     .home-textarea h2 {
@@ -1357,7 +1365,7 @@ footer {
 
     .home-theater-detail {
         padding: 0 20px;
-        margin-bottom: 160px;
+        margin-bottom: 200px;
     }
 
     .detail-text-area span {
@@ -1438,7 +1446,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         gap: 80px;
-        padding-top: 160px;
+        padding-top: 200px;
         color: white;
         position: relative;
     }
